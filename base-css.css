@@ -1,0 +1,135 @@
+base-css
+/seletor{propriedades:valor;}/
+
+@import url()
+
+*{margin:0; padding:0;}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 22%;
+   height: 400px;
+
+}
+
+img{
+   width: 50%;
+   height: 380px;
+}
+
+nav{
+   
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+a{
+    font: 1.2rem 'Roboto', sans-serif;;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+
+}
+
+a:hover,a:active {
+    color: #3f51b5;
+
+}
+
+a-menu:link, a-menu:visited{
+color: rgb(250, 249, 249);
+
+}
+
+     
+article{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+   font: 3rem 'kaushan script', cursive;
+   color: #3f51b5;
+   text-align: center;
+}
+
+p{
+font: 1.2rem 'Roboto', sans-serif;
+color: #777;
+text-align: justify;
+}
+
+
+#Sobre-o-filme{
+    background-color:whitesmoke;
+    padding-bottom: 20px;
+    
+   
+}
+
+ul{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    border: 1px solid black;
+
+}
+
+h2{
+   font: 2rem 'kaushan script', cursive;
+   color: #3f51b5;
+   
+
+}
+
+#container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+   justify-content: space-around ;
+}
+
+
+Img {
+    width: 100%;
+    object-fit
+}
+
+.card{
+        background-color:whitesmoke;
+        padding: 20px;
+        max-width:  13%;
+      }
+
+
+
+h3{
+font:1rem 'kaushan script', cursive;
+color: #3f51b5;
+
+}
+
+#container{
+
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+   justify-content: space-around ;
+}
+
+
+.imag-icones{
+    width:300px ;
+    height: 300px;
+}
